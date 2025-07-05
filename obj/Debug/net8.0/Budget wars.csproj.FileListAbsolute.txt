@@ -114,3 +114,4 @@ C:\Users\TheSa\projects\Budget wars\Budget wars\obj\Debug\net8.0\ref\Budget wars
 C:\Users\TheSa\projects\Budget wars\Budget wars\bin\Debug\net8.0\MediatR.dll
 C:\Users\TheSa\projects\Budget wars\Budget wars\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Users\TheSa\projects\Budget wars\Budget wars\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\TheSa\projects\Budget wars\Budget wars\obj\Debug\net8.0\Budget wars.sourcelink.json

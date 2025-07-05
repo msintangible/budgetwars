@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Budget wars")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdec6c7b8ccb76b1afd03f6e3f77fb0af27e111d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d672f56154a8dcf83a48daae3f5477ed232514c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Budget wars")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Budget wars")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
