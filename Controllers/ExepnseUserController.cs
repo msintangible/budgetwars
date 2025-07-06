@@ -21,7 +21,7 @@ namespace Budget_wars.Controllers
         //create expense user 
         //atributes
         [HttpPost]
-        public async Task<IActionResult> create([FromBody]
+        public async Task<IActionResult> Create([FromBody]
     CreateUser.Command command)
         {
              return await _mediator.Send(command) switch
@@ -42,6 +42,13 @@ namespace Budget_wars.Controllers
 
             return Ok(result);
 
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetAllUsers() {
+
+            var result = await _mediator.Send(new GetExpenseUsers.Query());
+
+            return Ok(result);
         }
     }
 }
