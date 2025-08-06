@@ -25,6 +25,11 @@ builder.Services.AddSwaggerGen();
 // MediatR v12 registration
 builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
+builder.Services.AddSwaggerGen(c =>
+{
+    c.CustomSchemaIds(type => type.FullName);
+});
+
 
 var app = builder.Build();
 
